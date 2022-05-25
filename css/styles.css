@@ -95,7 +95,14 @@ body {
     background-color: #ffffff;
 }
 
-.header-link {
+.header-list {
+    display: flex;
+}
+
+.header-nav {
+    display: block;
+    padding-bottom: 21px;
+    padding-bottom: 21px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
