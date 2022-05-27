@@ -181,6 +181,8 @@ body {
 }
 
 .hero-btn {
+    padding: 10px 32px;
+
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
