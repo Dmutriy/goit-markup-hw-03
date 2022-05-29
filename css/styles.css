@@ -52,8 +52,8 @@ img {
 body {
     font-family: "Roboto", sans-serif;
     color: var(--font-family-color);
-    width: 1600px;
-    margin: 0 auto;
+    /* width: 1600px; */
+    /* margin: 0 auto; */
 }
 
 .container {
@@ -78,6 +78,7 @@ body {
     background: #ffffff;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
@@ -161,10 +162,10 @@ body {
 
 /* --------------------------HERO----------------------------------- */
 
-.hero-content {
+.hero {
     background-color: #2f303a;
     min-width: 696px;
-    padding: 200px 452px 280px 452px;
+    padding: 200px 452px;
     /* text-align: center; */
 }
 
@@ -206,7 +207,7 @@ body {
 
 /* --------------------------SPECIFIX----------------------------------- */
 
-.specifics {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -215,16 +216,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-left: -15px;
-    margin-right: -15px; */
 }
-.specifics .specifics-list {
-    /* display: flex;
-    align-items: center; */
-    /* flex-basis: calc(100% / 4 - 90px); */
-    /* margin-left: 15px;
-    margin-right: 15px; */
-    /* justify-content: space-between; */
+
+.specifics-item {
+    max-width: 270px;
 }
 
 .invisible-title {
@@ -255,12 +250,12 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-color-text);
-    max-width: 270px;
+    /* max-width: 270px; */
 }
 
 /* --------------------------ABOUT----------------------------------- */
 
-.about {
+.section {
     /* padding-top: 94px; */
     padding-bottom: 94px;
 }
@@ -272,15 +267,18 @@ body {
 }
 
 /* .about .about-item:not(:last-child) {
+    margin-left: 30px;
+} */
+/* 
+.about .about-item + .about-item {
+    /* flex-basis: calc(100% / 3 - 60px); */
+    flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
 } */
 
-.about .about-item {
-    /* flex-basis: calc(100% / 3 - 60px); */
-    width: calc((100% - 60px) / 3);
-    margin-left: 30px;
+.about .about-item:not(:last-child) {
+    margin-right: 30px;
 }
-
 .about-title {
     font-weight: 700;
     font-size: 36px;
@@ -293,9 +291,11 @@ body {
 
 /* --------------------------TEAM----------------------------------- */
 
+.team .section {
+    padding: 94px;
+}
 .team {
     background-color: #f5f4fa;
-    padding: 94px;
 }
 
 .team .team-list {
