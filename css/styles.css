@@ -57,14 +57,12 @@ body {
 }
 
 .container {
-    /* width: 1170px; */
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    /* align-items: center; */
-    /* outline: 1px solid pink; */
 }
+
 .link {
     text-decoration: none;
 }
