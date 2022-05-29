@@ -285,7 +285,7 @@ body {
 
 .team .section {
     padding-top: 94px;
-    padding-bottom;: 94px;
+    padding-bottom: 0% 94px;
 }
 .team {
     background-color: #f5f4fa;
@@ -446,10 +446,9 @@ body {
 
 .portfolio-title-text {
     padding: 20px 24px;
-    border-left: 1px solid #E5E5E5;
-    border-right: 1px solid #E5E5E5;
-    border-bottom: 1px solid #E5E5E5;
-    
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .portfolio-title {
